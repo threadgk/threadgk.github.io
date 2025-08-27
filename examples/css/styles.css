@@ -1,0 +1,47 @@
+            /* Structure */
+body {
+    font-family:Arial, Helvetica, sans-serif; 
+    /* set background image by
+    - download image to computer
+    -drag image to images folder 
+    -copy path to image and paste in url('') */ 
+    background: url('/Users/kaylathreadgill/Desktop/csce242/threadgk.github.io/examples/css/images/ocean.jpeg'); 
+}
+#content {
+    background:ivory; 
+    width: 70%;  
+    margin:auto; /* center the div */  
+    padding:10%;  /* spacing inside the div to get text away from edges */
+    border-radius:5px; /* round corners */ 
+}
+
+
+            /* Tables */ 
+table {
+    /* double border */ 
+    border-collapse: collapse; 
+}
+td , th {
+    border:1px solid grey; 
+    padding:5px  10px;   /* 5px=top and bottom 10px= left and right */ 
+    
+} 
+th {
+    background: lightgrey; 
+}
+
+
+
+            /* Images */ 
+#kiawah{ 
+    box-shadow: 7px  7px  lightskyblue ; 
+
+}
+
+            /* Typography */ 
+h1 {
+    color:rgb(163, 220, 163);
+}
+h2 {
+    color: rgba(74, 176, 192, 0.476); 
+}

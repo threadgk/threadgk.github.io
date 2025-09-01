@@ -1,0 +1,90 @@
+/* Mobile First Design */
+body{
+    background: #5CA612 ; 
+} 
+
+#content{
+    width:95%;
+    margin:auto;
+    background:rgba(255, 255, 255, 0.8); 
+    border-radius:5px;
+    padding:5px;
+} 
+
+#main-header{
+    background:#b3ee78;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+} 
+
+
+/* Main Navigation */ 
+
+#main-nav ul{
+    list-style-type:none; /* Remove Bullets */ 
+    padding-left: 0; /* Remove Indentation */
+} 
+
+#main-nav li{
+    border-top: 1px solid white;  /* Add a top border line */
+    border-bottom: 1px solid white;  /* Add a bottom border line */ 
+    
+} 
+
+#main-nav li:first-child{
+    border-top: 1px solid white; /* Add top border to first item */
+}
+#main-nav a{ /* the anchor tag- style the link */ 
+    color:white;
+    text-decoration:none; /* Remove Underlines */ 
+    padding: 10px 0px;
+    display:block; /* Make the entire area clickable */
+} 
+
+#main-nav a:hover{
+    background: white;  
+    color:#5CA612
+}
+/* Typography */ 
+
+h1{
+    text-align:center;
+}
+
+/* For Larger Devices Only */
+    @media only screen and (min-width: 768px){
+    body{
+         background: url('images/grass.jpeg');
+         background-size:cover;
+    }
+    #content{
+    width:70%;
+    }
+    /* Columns */ 
+
+    .columns{ 
+        display:flex;
+    
+    } 
+
+    /* Main Nav */  
+
+    #main-nav li{
+        flex:1;
+    }
+    #main-nav li, #main-nav li:first-child {
+        border:none ;
+    } 
+
+    #main-nav a{
+        padding: 5px; 
+        text-align:center;
+    }
+
+    #main-nav a:hover {
+        background:#b3ee78;
+        color:white; 
+        border-bottom: 1px solid white; 
+    }
+}

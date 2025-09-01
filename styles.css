@@ -26,7 +26,7 @@ head {
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-#headers {
+#main-header {
     background-color:rgba(18, 192, 255, 0.214);
     font-family:Verdana, Geneva, Tahoma, sans-serif ; 
     text-align: center ; 
@@ -38,4 +38,7 @@ body {
 #assignments {
     background-color:rgba(18, 152, 255, 0.441);
     
+} 
+.columns {
+    display: flex ; 
 }

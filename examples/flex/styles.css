@@ -9,6 +9,7 @@ body{
     background:rgba(255, 255, 255, 0.8); 
     border-radius:5px;
     padding:5px;
+    text-align:center;
 } 
 
 #main-header{
@@ -16,6 +17,7 @@ body{
     color:white;
     border-radius:5px;
     padding:5px;
+    
 } 
 
 

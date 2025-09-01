@@ -1,44 +1,113 @@
-
-
-
-/*head*/   
-head {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-} 
-
-/*body*/              
-#Button {  
-    text-align: center ; 
-    background-color: white ; 
+/* Mobile First Design */ 
+body{
+    background:rgb(255, 255, 203)
 }
-#GTR-Button {
-    background-color:rgba(114, 250, 116, 0.652) ; 
-    font-family:fantasy ;  
-    font-size: 20px ;  
-    text-decoration: none ;      
-    color:white;     
-    text-shadow:-1px -1px 0px black, 1px -1px 0px black, -1px 1px 0px black, 1px 1px 0px black ;  /* top left, top right, bottom left, bottom right */ 
-    border-radius: 10px ; 
-    
+#content{
+    width:95%;
+    margin:auto;
+    background:rgb(158, 227, 232); 
+    border-radius:5px;
+    padding:5px;
+   /* text-align:center; */
     
 }
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-#main-header {
-    background-color:rgba(18, 192, 255, 0.214);
-    font-family:Verdana, Geneva, Tahoma, sans-serif ; 
-    text-align: center ; 
-
-}      
-#assignments-title {
-    text-align: center ; 
-}
-#assignments {
-    background-color:rgba(18, 152, 255, 0.441);
+#main-header{
+    text-align:center; 
+    color:rgba(10, 12, 13, 0.42);  
+  
     
-} 
-.columns {
-    display: flex ; 
+}
+
+#GTR-Button{
+    background:white;
+    border-radius: 5px;
+    text-decoration:none;
+    color:rgb(116, 154, 155);
+    padding:5px;
+}
+
+#main-content{
+    background: rgb(116, 154, 155); 
+    color: white; 
+    font-size:larger; 
+    border-radius:5px;
+    padding:5px;
+    
+}
+#main-opt{
+    background: rgb(254, 174, 150);
+}
+#main-content ul{
+    list-style-type:none;
+    text-decoration:none;
+    padding-left:0;
+    text-align:center; /*text and pics list text*/
+}
+#main-content li{ 
+    border-top:4px solid rgb(158, 227, 232);  
+    border-bottom: 4px solid rgb(158, 227, 232); 
+    border-left: 4px solid rgb(158, 227, 232); 
+    border-right: 4px solid rgb(158, 227, 232); 
+    
+}
+#main-content a{
+    color:white;
+    text-decoration:none; /* removes underlines */
+    padding:10px 0px;
+    display:block;        /* makes the entire area clickable */
+}
+#main-content a:hover{    /* changes color of link when hover */
+    background: rgba(238, 11, 11, 0.407);   /* backgroung color of hover */
+    color: rgb(254, 174, 150); /* text color when hover */
+}
+
+/*Typography*/ 
+/* position of text "Assignment __-_____" on page */ 
+h3{
+    text-align:center;
+    font-family:cursive;
+}
+/* For Large Devices Only */ 
+@media only screen and (min-width: 768px){
+    body{
+        background:url("images/palmtree.jpeg");
+        background-size: cover; 
+        
+    }
+    #content{ /* width of content on page */
+        width:70%;
+    }
+    .columns{ /* columns */
+        display:flex;
+    }
+    #main-opt li{
+        flex:1;
+    }
+    #main-opt li, #main-opt li:first-child{
+        border:10px solid white;
+    }
+    #main-opt a{
+        padding:5px; 
+        text-align:center;
+    }
+    #main-opt a:hover{
+        background:white;   
+        color: rgb(254, 174, 150);
+    }
+    #GTR-Button{
+        background: rgb(116, 154, 155);
+        border-radius: 5px; 
+        text-decoration: none; 
+        color: white; 
+        padding:5px; 
+    }
+    #main-content{
+        background:rgba(0, 110, 255, 0.716); 
+    } 
+    h3{ 
+        font-family: cursive; 
+    }
+    
+   
+
 }

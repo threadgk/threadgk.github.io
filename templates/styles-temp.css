@@ -1,0 +1,11 @@
+/* Structure-mobile first */ 
+/* Navigation-mobile first */
+/* Typography-mobile first */
+
+
+/* Larger Resolutions- Media Query are at end */ 
+/* @media (min-width: 900px){} - 
+- Style is within the media query
+- as long as monitior resolution is atleast 900px then it will apply the following 
+- apply flex only in the media query  
+*/  

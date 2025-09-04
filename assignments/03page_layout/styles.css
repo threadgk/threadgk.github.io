@@ -1,0 +1,98 @@
+/* Structure-mobile first */ 
+body{
+    background-color:rgb(255, 249, 205); 
+}
+#main-footer{
+    background-color:rgb(226, 113, 128);
+}
+
+
+/* Navigation-mobile first */
+#main-nav{
+    background-color:rgb(226, 113, 128)
+}
+#main-nav a{
+    color: white; 
+    text-decoration: none;
+}
+#main-nav ul{
+    padding-left: 0%;
+    list-style-type:none; /*removes bullets from the nav bar buttons*/
+}
+#main-nav li{ 
+    border-bottom: 1px solid rgb(255, 249, 205); 
+}
+
+/* Typography-mobile first */
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    color:rgba(39, 130, 104, 0.791)
+}
+
+
+/* Larger Resolutions- Media Query are at end */ 
+ @media (min-width: 900px){
+/*Navigation on large Screens*/
+
+#main-nav ul{
+    display:flex; /*spans the nav bar horizontally*/
+    justify-content:space-around; /*space between each nav button*/ 
+}
+#main-nav li{
+    flex:1; /*equal space between nav bar buttons*/ 
+    border:10px;/*border around nav bar*/ 
+    
+}
+#main-nav a{
+    display:block; /*makes entire nav bar button bar clickable for each*/
+    padding:10px; /*thickens nav bar so more space around the text*/ 
+    border:1px solid rgb(67, 221, 157);
+}
+.quadrants{
+    display:flex;
+    flex-wrap:wrap;
+}
+.quad{
+    flex: 1 1  50%; /*each quad is stacked 2x2*/
+    display:flex; /*each quad has image on left and text on right*/
+    gap:10px;/*space between img and text inside each quad*/
+    
+}
+.columns{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.col{
+    flex:auto;
+}
+/*Sidebar*/
+.one{
+    display:flex;
+    flex:1;
+    background-color:rgb(226, 113, 128);
+    padding:10px;
+}
+.content{ /*grid container*/
+    flex:3;
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+/*grids*/ 
+.grid_2x2 , .grid_2x3  {
+    display:flex; 
+    flex-wrap: wrap; 
+    gap:10px;
+    
+    
+}
+.grid_2x2 .box , .grid_2x3 .box {
+    flex:0 0 100%; 
+    background:rgb(180, 232, 137); 
+    padding:20px; 
+    text-align:center;
+}
+ }
+

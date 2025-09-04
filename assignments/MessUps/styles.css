@@ -1,0 +1,132 @@
+/* mobile first */
+
+
+
+/* desktop */
+@media (min-width: 700px){ 
+body{
+    background-color:rgb(250, 250, 215); 
+    margin:0;
+}
+#main-header h1{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color:rgb(123, 128, 125);
+    margin:auto;
+    padding:10px;
+}
+#main-nav{
+    background-color:rgba(222, 119, 119, 0.792);
+    border-top:1px solid rgb(220, 220, 220);  
+    border-bottom:1px solid rgb(220,220, 220); 
+}
+#main-nav .columns{ /*establishes flex and horizontal*/
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:0px;
+    margin:0;
+   
+}
+#main-nav a{
+    text-decoration:none;
+    color:white;
+    display:block;
+
+}
+#main-nav .columns li{ /*flex proportion */
+    flex:20%;
+    font-size:30px;
+    border-left:1px solid rgb(74, 153, 152); 
+    list-style-type:none;
+    text-align:center;
+}
+#main-nav .columns li:last-child{
+    border-right:1px solid rgb(74, 153, 123); 
+}
+#main-content .columns{ /* columns flex for pic and idea ul horizontal*/
+    display:flex;
+    flex-wrap:wrap;
+}
+#main-content #one ul{
+    list-style-type:none;
+}
+#quadrants{
+    display:flex;
+    flex-wrap:wrap;
+}
+#quadrants .quad{
+    flex: 1 1  50%; /*each quad is stacked 2x2*/
+    display:flex; /*each quad has image on left and text on right*/
+    gap:10px;/*space between img and text inside each quad*/
+    
+}
+#grids > .columns{
+    display:flex;
+    gap:20px;
+}
+
+/*Sidebar*/
+aside ul{
+    list-style-type:none;
+}
+aside a{
+    text-decoration:none;
+    color:white;
+    padding-left:0;
+}
+aside.one{
+    flex:0 0 20%;
+    background-color:rgba(222, 119, 119, 0.792);
+    padding:10px;
+    text-align:center;
+}
+.wrapper{
+    display:flex;
+    flex:1;
+    gap:20px;
+}
+.container{
+    flex:0 0 50%;
+    display:flex;
+    flex-direction:column;
+}
+/*grids */
+ #grid_2x2 .columns{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+width:50%;
+}
+ #grid_2x2 .columns div .box{
+    flex:0 0 50%;
+    background-color:rgb(99, 159, 159);
+    font-size:10px;
+    box-sizing:border-box;
+}
+#grid_2x3 .columns{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    width:50%;
+}
+ #grid_2x3 .columns div .box{
+    flex:0 0 33.333;
+    background-color:azure;
+    font-size:10px;
+    box-sizing:border-box;
+}
+footer{
+    background-color:rgba(222, 119, 119, 0.792);
+    text-align:center;
+    padding:20px;
+    border:10px solid rgb(250, 250, 215); 
+}
+}
+
+
+
+
+
+
+

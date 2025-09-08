@@ -60,7 +60,13 @@ body{
     background: rgba(238, 11, 11, 0.407);   /* backgroung color of hover */
     color: rgb(254, 174, 150); /* text color when hover */
 }
-
+div#projects img{
+    max-width:25%;
+}
+div#projects a:hover{
+    color:black;
+    background-color:rgb(198, 237, 224);
+}
 /*Typography*/ 
 /* position of text "Assignment __-_____" on page */ 
 h3{

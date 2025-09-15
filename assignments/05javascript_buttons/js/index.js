@@ -1,17 +1,18 @@
-document.getElementById("color-picker").addEventListener("input", function(){
-    output = document.getElementById("color-output");
-    output.textContent = "Selected color: " +this.value;
-    output.style.color= this.value;
+document.getElementById("color-picker").addEventListener("input",(event)=>{
+    const output = document.getElementById("color-output");
+    const color = event.currentTarget.value;
+    output.textContent = `Selected color: ${color};`
+    output.style.color= color;
 });
 
-document.getElementById("become-sunny").addEventListener("click", function(){
-     img = document.getElementById("sunny-img");
+document.getElementById("become-sunny").onclick = (event) =>{
+     const img = document.getElementById("sunny-img"); 
      img.src = "images/sun.webp"
 
-}); 
+}; 
 
-document.getElementById("become-cloudy").addEventListener("click",function(){
-    img = document.getElementById("sunny-img");
-    img.src = "images/rain-cloud.jpg"
-});
+document.getElementById("become-cloudy").onclick = (event) =>{
+     const img = document.getElementById("sunny-img");
+     img.src = "images/rain-cloud.jpg"
+};
 

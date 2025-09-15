@@ -232,7 +232,18 @@ header h1 {
 footer p {
     text-align:center;
 }
-
+.happy.clicked{
+background:#60e76d;
+    color:white;
+}
+.sad.clicked{
+background:#799ce3;
+    color:white;
+}
+.clear.clicked {
+    background:#2B91AD;
+    color:white;
+}
 #map {
     width:100%;
     height:500px;

@@ -1,0 +1,61 @@
+body{
+    background-color:rgb(117, 169, 214);
+    color: white;
+    
+}
+footer{
+    text-align:center;  
+    padding:25%;
+    background-color:rgb(189, 207, 223); 
+}
+#main-header h2, #main-header h3{
+    text-align:center;
+    color:rgb(255, 255, 255);
+}
+section#container ul{
+    list-style-type: none;
+}
+.hidden{
+    display:none;
+}
+.show{
+    display:block;
+}
+section#container{
+    display:flex;
+    flex-direction:column;
+}
+section#container .flex-div{
+    flex:100%;
+
+}
+#main-content div{
+    border: 10px solid white;
+}
+#main-content {
+    text-align: center;
+}
+
+/**p tag indent**/
+p.indent-two{
+    text-indent:1em;
+}
+p.indent-three{
+    text-indent:2em;
+}
+p.indent-four{
+    text-indent:3em;
+}
+p.indent-five{
+    text-indent:4em;
+}
+@media (min-width:768px){
+    section#container{
+        flex-direction:row;
+        flex-wrap: wrap;
+        gap:16px;
+    }
+    section#container .flex-div{
+        flex: 1 1 30%; 
+    }
+}

@@ -1,10 +1,30 @@
                 /* smaller screens- page layout */
+#songs-table  { /* songs.html */ 
+    display: block ;
+    border: 1px solid black ;
+    justify-content:center ; 
+    text-align: center ;
+    align-items: center ;
+}
+table{ /* songs.html */ 
+    margin-left:auto ;
+    margin-right:auto ;
+}
+h1 {
+    text-align:center ;
+    font-size: 100px; 
+}
+table td, table th , table tr { /* songs.html */
+    padding:20px ;
+    font-size: 20px ; 
+
+} 
 #column-one {
     margin: 20px ;
 }
 #column-two {
     margin: 20px ;
-    background-color: rgb(151, 198, 160) ; 
+    background-color: white;
 }
 #column-three {
     margin: 20px ;
@@ -16,8 +36,8 @@ h3#bio {
     margin: 20px ;
     padding: 20px;
     text-align: center ;
-    color:rgba(0, 0, 0, 0.956); 
-    background-color: rgb(255, 255, 255);
+    color: black;
+    background-color: white;
     border: 4px solid black ;
     border-radius: 20%;
 }
@@ -31,6 +51,9 @@ a#home-button {
     top: 30px ;
 }
                 /* smaller screens- navigation */
+ #top-nav ul.flex {
+    display: none ;
+} 
 div#site-nav{
     margin-left: 0% ;
 
@@ -38,16 +61,16 @@ div#site-nav{
 .flex-nav a { 
     display:block; 
     background-color: white ;
-    color: rgb(96, 112, 145);
+    color: black;
     text-decoration:none; 
     border: 4px solid black ;
 } 
 .flex-nav a:hover {
-    color: rgb(198, 246, 172) ;
-    background-color: rgb(151, 198, 160) ;
+    color: black;
+    background-color: white;
 }
 #site-nav ul {
-    padding: 5px ;
+    padding: 50px ;
      list-style-type:none;  
          gap: 10px ;
          display:flex;
@@ -56,21 +79,23 @@ div#site-nav{
 
 }
 #site-nav li{
-    padding: 5px ;
+    font-size:35px;
+    padding: 25px ;
     text-align: center;
     max-width: 100%; 
 }  
 
                 /* smaller screens- typography & colors */
 body{
-    background-color:rgb(164, 190, 246);
+    background-color:white;
 }
-header{
+header{ 
+    text-indent: 4% ;
     font-weight:20px;
     font-size:100px;
     text-align:left; 
-    color: rgb(151, 198, 160); 
-    background-color:rgb(198, 246, 172);
+    color: black;
+    background-color:white;
 }
 header::after{
     content: "   \266A";
@@ -84,16 +109,38 @@ header::after{
 
 
 @media (min-width:900px){
-/* larger screens- page layout */  
+/* larger screens- page layout */   
+#top-nav ul.flex{ 
+    
+    display:flex;
+    list-style-type: none; 
+    text-align: center ;
+    margin:0;
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+    padding:0;
+}
+#top-nav a {
+    color: black ;
+    padding: 10px ;
+    text-decoration: none ;
+}
+#top-nav li { 
+    flex: 1 ; 
+    position:relative;
+    top:10px;
+    border: 4px solid black ;
+}
+
 header {
-    border: 10px solid rgb(151, 198, 160) ;
+    border: 10px solid black;
 }
 a#home-button {  
     font-size: 20px ; 
     font-weight: bold ; 
     padding: 20px ;
     border-radius: 100px ;
-    background-color: rgb(255, 255, 255) ;
+    background-color: white;
     color: black ; 
     text-decoration: none ;
     position: absolute ;
@@ -106,8 +153,8 @@ a#home-button {
 }
 .columns{
     flex: 1 1 25%;
-    background:rgb(210, 243, 255)  ;
-    border: 10px solid rgb(151, 198, 160) ; 
+    background: white ;
+    border: 10px solid black; 
 }
 
 /* larger screens- navigation */ 

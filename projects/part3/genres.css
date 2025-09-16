@@ -1,0 +1,22 @@
+#col-one{
+    background-color: beige;
+}
+#col-two{
+    background-color: antiquewhite;
+}
+#col-three{
+    background-color: blanchedalmond;
+}    
+#pop.genre div {
+    display: flex ;
+}
+#pop.genre div.col {
+    flex: 1 1;
+}
+table {
+    background-color: rgb(180, 216, 216);
+} 
+p#pop-header {
+    font-size: 50 px ;
+    text-align: center ;
+}

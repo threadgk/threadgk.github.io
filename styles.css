@@ -9,15 +9,31 @@ body{
     border-radius:5px;
     padding:5px;
    /* text-align:center; */
-    
+
 }
 #main-header{
     text-align:center; 
     color: rgba(10, 12, 13, 0.42);  
-  
-    
 }
-
+img{
+    height:200px;
+    width:200px;
+}
+ul{
+    display:flex; 
+    flex-wrap: wrap; 
+}
+li{
+    padding:0px;
+    flex:1;
+}
+ 
+section { 
+    display: block ; 
+    justify-content: center; 
+    color:rgb(116, 154, 155);
+    background-color: rgb(255, 255, 198);
+}
 #GTR-Button{
     background:white;
     border-radius: 5px;
@@ -50,15 +66,16 @@ body{
     border-right: 4px solid rgb(158, 227, 232); 
     
 }
-#main-content a{
-    color:white;
+#main-content a{ 
+    color:rgb(116, 154, 155) ; 
+    background-color:white;
     text-decoration:none; /* removes underlines */
     padding:10px 0px;
     display:block;        /* makes the entire area clickable */
 }
 #main-content a:hover{    /* changes color of link when hover */
-    background: rgba(238, 11, 11, 0.407);   /* backgroung color of hover */
-    color: rgb(254, 174, 150); /* text color when hover */
+    background: white ;   /* backgroung color of hover */
+    color: rgb(116, 154, 155); /* text color when hover */
 }
 div#projects img{
     max-width:25%;
@@ -98,7 +115,7 @@ h3{
     }
     #main-opt a:hover{
         background:white;   
-        color: rgb(254, 174, 150);
+        color: rgb(116, 154, 155);
     }
     #GTR-Button{
         background: rgb(116, 154, 155);

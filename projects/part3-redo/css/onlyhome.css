@@ -1,0 +1,108 @@
+.home-nav-container{
+    padding-right:35px;
+}
+.home-nav-container li{
+    margin-bottom: 10px ;
+    display:block;
+    padding-top:10px;
+    padding-bottom: 10px ;
+}
+div#home-nav{
+    display:block;  
+    justify-content:center;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px;
+}
+div#about-website p {
+    display:flex;
+    text-align: center ;
+    justify-content: center ;
+}
+#display-gallery p { 
+    text-align: center;
+}
+#display-gallery{
+    text-align: center;
+}
+.home-nav-container{
+    text-align:center;
+    list-style-type:none;
+}
+p#page-heading-text{
+    background-color: rgb(230, 183, 176) ;
+}
+.home-nav-container li a{
+    color: black;
+    text-decoration:none;
+}
+.home-nav-container li{
+    text-align: center ;
+    background-color:aliceblue;
+    border: 1px solid aliceblue ; 
+}
+#home-nav{
+    background-color:rgb(230, 183, 176) ;
+}
+#display-gallery img {
+    border: 10px solid rgb(230, 183, 176) ;;
+}
+
+
+
+
+#about-website p {
+    font-size: 30px ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.home-nav-container li a{
+    font-size: 20px;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#display-gallery p {
+    font-size: 80px ; 
+    font-weight: bold ; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+
+
+
+@media(min-width:900px){
+    .home-nav-container{
+    margin-left: 300px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.home-nav-container li{
+    flex:0 0 35%;
+}
+
+
+
+
+
+
+.home-nav-container{
+    list-style-type:none;
+}
+.home-nav-container li a{
+    justify-content:center;
+    align-items: center ;
+    display:flex;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+}
+.home-nav-container li{
+    background-color:aliceblue;
+    border: 1px solid aliceblue ;
+    width: 150px ;
+    height: 150px ;
+    border-radius: 50% ;     
+    overflow:hidden;
+}
+}

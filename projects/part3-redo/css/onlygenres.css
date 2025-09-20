@@ -1,0 +1,51 @@
+div#all-genres div{
+    display:flex; 
+    gap:20px;
+    flex-wrap:wrap;
+}
+div.flex-genre{
+    flex:100%;
+    display:flex;
+}  
+
+div.flex-genre div {
+    flex:1 1; 
+    display:flex;
+}
+div.genre-container {
+    display:flex;   
+    flex-wrap:wrap;
+}
+div#about-genre p, div#about-genre img {
+    flex:100%;
+}
+div#genre-cont{
+    display:flex; 
+    flex-wrap:wrap;
+} 
+div#genre-cont h3, div#genre-cont img, div#genre-cont iframe {
+    flex: 100%; 
+}
+div#genre-cont h3{
+        text-align: center;
+}
+
+div#genre-cont iframe {
+    
+    border-right: 50px solid white;
+    border-left:50px solid white;
+}
+
+
+p#page-heading-text{
+    background-color: rgb(195, 220, 211);
+}
+div#genre-one, div#genre-three, div#genre-five, div#genre-seven, div#genre-nine{
+    background-color:rgb(131, 160, 147);
+}
+div#genre-two, div#genre-four, div#genre-six, div#genre-eight, div#genre-ten {
+    background-color:beige;
+}
+section#webpage-cont {
+    background-color: white;
+}

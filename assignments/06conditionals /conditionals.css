@@ -1,0 +1,82 @@
+body{
+    background-color: azure; 
+    text-align: center ;
+}
+h1 , h3  {
+    color: rgb(11, 59, 107) ;
+} 
+h2 {
+    color:rgb(155, 173, 232);
+}
+.hide-small {
+    display:none ;
+}
+
+#toggle-nav { 
+    background-color: white ;
+    color:black ;
+    padding: 5px ;
+} 
+
+#toggle-btn  { 
+    display:flex ;
+    align-items: center ;
+    cursor: pointer ;
+}  
+#toggle-nav div {
+    background-color: rgb(194, 203, 239);
+}
+
+#toggle-btn div {  
+    width: 25px;
+    height:3px;
+    background: white; 
+    margin: 5px 0;
+}
+#nav-arrow {
+    font-size: 20px; 
+    margin-top:5px; 
+    margin-left:3px;
+} 
+div#ex1{
+    border: 1px solid rgb(187, 187, 244);
+}
+div#ex2{
+    border: 1px solid rgb(187, 187, 244);
+
+}
+#flex-nav { 
+    list-style-type: none ; 
+    padding: 0px ; 
+    margin: 0px ;
+} 
+
+#flex-nav li {     
+    padding: 8px; 
+    cursor: pointer ;
+} 
+
+#flex-nav li:hover {
+    color:rgba(34, 26, 85, 0.479) ;
+} 
+
+@media (min-width: 600px ) {
+    #toggle-btn{
+        display:none;
+    } 
+
+    #flex-nav {
+        display:flex; 
+        flex-direction: row; 
+        gap:20px; 
+        justify-content: center ;
+        
+
+    } 
+    
+    #flex-nav li:not(:last-child)::after {
+           content: " |" ; 
+           margin-left: 10px ; 
+           color: black ;
+    }
+}

@@ -1,0 +1,29 @@
+section#webpage-cont  {
+    gap:10px;
+    display:flex;
+}
+div.container {
+    flex:1 1;
+    display: flex;  
+    gap:20px;
+    flex-wrap: wrap;
+} 
+div.box {
+    flex:100%;
+}
+
+
+
+
+p#page-heading-text{
+    background-color: rgb(249, 207, 253);
+}
+div#user-cont-two {
+    background-color: rgb(190, 232, 219);
+}
+div#top{
+    background-color: rgb(255, 248, 150);
+} 
+div#bottom{
+    background-color: rgb(204, 233, 247);
+}

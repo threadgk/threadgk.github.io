@@ -1,0 +1,96 @@
+.flex-div{
+    display:flex;
+    gap:10px;
+    position:relative ;
+}
+.flex-div div{
+    flex:100%;
+}
+div#billboard, div#apple, div#spotify, div#iHeart, div#youtube{
+    margin-top:100px;
+    margin-right: auto;
+    display:block;
+    justify-content: center ;
+    display:flex;
+    flex-wrap:wrap;
+}
+div#billboard-body table, div#apple-body table, div#spotify-body table, div#iHeart-body table, div#youtube-body table
+{
+    height: 700px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+div#billboard-body table th, div#apple-body table th, div#spotify-body table th, div#iHeart-body table th, div#youtube-body table th
+{
+    text-align: center ;
+    padding: 20px ; 
+}
+div#billboard-body table td, div#apple-body table td, div#spotify-body table td, div#iHeart-body table td, div#youtube-body table td
+{
+    text-align:center;
+    padding:0px ;
+}
+div .charts {
+    flex: 100%;
+}
+.charts{
+    border: 10px solid black;
+    display:flex;
+}
+p.flex-yt, a.flex-yt, img.flex-yt{
+    flex: 1 ;
+    text-align:center;
+}
+img.flex-yt{ 
+    height: 80px;
+    width:100px;
+    padding-top:20px;
+}
+div.wholepage{
+    position:relative;
+    margin-left:100px;
+    margin-top:100px;
+    margin-right:100px;
+    margin-bottom:100px;
+}
+div .charts p{
+    padding:10px;
+}
+a.flex-yt{
+    padding-top: 40px ;
+}
+
+
+
+
+
+p#page-heading-text{
+    background-color: rgb(255, 209, 157);
+}
+section#webpage-cont{
+    background-color: rgb(49, 139, 181) ;
+}
+.charts{
+    background-color:rgb(195, 223, 246) ;
+}
+a.flex-yt {
+    color: black ;
+    text-decoration: none ;
+}
+
+
+div#billboard-body table th, div#apple-body table th, div#spotify-body table th, div#iHeart-body table th, div#youtube-body table th
+{
+    font-size: 30px ;
+}
+div#billboard-body table td, div#apple-body table td, div#spotify-body table td, div#iHeart-body table td, div#youtube-body table td
+{
+    font-size: 20px ;
+}
+a.flex-yt{
+    font-size:50px ;
+}
+div .charts p{
+    font-size:35px;
+    font-weight: bold;
+}

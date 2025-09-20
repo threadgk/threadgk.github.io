@@ -1,5 +1,5 @@
 //console.log("Attached My Script"); //wrong placement check back later 
 
-document.getElementById(toggle-nav).onclick = () => {
+document.getElementById("toggle-nav").onclick = () => {
 document.getElementById("nav-items").classList.toggle("hide-small");
 };

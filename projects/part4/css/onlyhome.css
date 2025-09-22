@@ -5,7 +5,8 @@
     margin-bottom: 10px ;
     display:block;
     padding-top:10px;
-    padding-bottom: 10px ;
+    padding-bottom: 10px ;    
+    border-radius: 50% ; 
 }
 div#home-nav{
     display:block;  
@@ -30,41 +31,52 @@ div#about-website p {
     text-align:center;
     list-style-type:none;
 }
-p#page-heading-text{
-    background-color: rgb(230, 183, 176) ;
+#display-gallery{  
+    margin-left: 80px ; 
+    margin-right: 80px ;
+    padding:40px;
+    background-color: rgba(255, 255, 255, 0.807) ;
 }
-.home-nav-container li a{
-    color: black;
+
+
+p#page-heading-text{  
+    border-radius:10px ;
+    background-color: rgba(240, 248, 255, 0.625);
+}
+.home-nav-container li a{ 
+    color: rgb(24, 54, 74) ;
     text-decoration:none;
 }
 .home-nav-container li{
     text-align: center ;
-    background-color:aliceblue;
-    border: 1px solid aliceblue ; 
+    background-color: rgba(188, 216, 229, 0.817) ;
 }
-#home-nav{
-    background-color:rgb(230, 183, 176) ;
-}
-#display-gallery img {
-    border: 10px solid rgb(230, 183, 176) ;;
+
+#display-gallery img {  
+    border: 10px solid  ; 
+    border-image: linear-gradient(to right, rgb(24, 54, 74), rgb(188, 216, 229, 0.817)) 1;
 }
 
 
 
 
-#about-website p {
+#about-website p {       
+    padding: 10px ;
+    background-color: white ;
     font-size: 30px ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family:'Courier New', Courier, monospace  ;
 }
 .home-nav-container li a{
     font-size: 20px;
-    font-weight:bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
-#display-gallery p {
-    font-size: 80px ; 
-    font-weight: bold ; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+#display-gallery p {     
+    border-radius: 10px ;
+    color: rgb(255, 120, 71) ;
+   /* border: 1px solid rgb(255, 129, 3) ; */ 
+    background-color: rgb(255, 200, 153) ;
+    font-size: 30px ; 
+    font-family:'Courier New', Courier, monospace ;
 }
 
 

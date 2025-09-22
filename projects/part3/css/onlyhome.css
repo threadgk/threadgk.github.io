@@ -1,0 +1,121 @@
+.home-nav-container{
+    padding-right:35px;
+}
+.home-nav-container li{
+    margin-bottom: 10px ;
+    display:block;
+    padding-top:10px;
+    padding-bottom: 10px ;    
+    border-radius: 50% ; 
+}
+div#home-nav{
+    display:block;  
+    justify-content:center;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    padding:10px;
+}
+div#about-website p {
+    display:flex;
+    text-align: center ;
+    justify-content: center ;
+}
+#display-gallery p { 
+    text-align: center;
+}
+#display-gallery{
+    text-align: center;
+}
+.home-nav-container{
+    text-align:center;
+    list-style-type:none;
+}
+#display-gallery{  
+    margin-left: 80px ; 
+    margin-right: 80px ;
+    padding:40px;
+    background-color: rgba(255, 255, 255, 0.807) ;
+}
+
+
+p#page-heading-text{  
+    border-radius:10px ;
+     /* border: 1px solid rgb(255, 200, 153)  ;   */ 
+    background-color: rgb(255, 200, 153) ;
+}
+.home-nav-container li a{ 
+    color: rgb(24, 54, 74) ;
+    text-decoration:none;
+}
+.home-nav-container li{
+    text-align: center ;
+    background-color: rgba(188, 216, 229, 0.817) ;
+}
+
+#display-gallery img {  
+    border: 10px solid  ; 
+    border-image: linear-gradient(to right, rgb(24, 54, 74), rgb(188, 216, 229, 0.817)) 1;
+}
+
+
+
+
+#about-website p {       
+    padding: 10px ;
+    background-color: white ;
+    font-size: 30px ;
+    font-family:'Courier New', Courier, monospace  ;
+}
+.home-nav-container li a{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+#display-gallery p {     
+    border-radius: 10px ;
+    color: rgb(255, 120, 71) ;
+   /* border: 1px solid rgb(255, 129, 3) ; */ 
+    background-color: rgb(255, 200, 153) ;
+    font-size: 30px ; 
+    font-family:'Courier New', Courier, monospace ;
+}
+
+
+
+
+@media(min-width:900px){
+    .home-nav-container{
+    margin-left: 300px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.home-nav-container li{
+    flex:0 0 35%;
+}
+
+
+
+
+
+
+.home-nav-container{
+    list-style-type:none;
+}
+.home-nav-container li a{
+    justify-content:center;
+    align-items: center ;
+    display:flex;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+}
+.home-nav-container li{
+    background-color:aliceblue;
+    border: 1px solid aliceblue ;
+    width: 150px ;
+    height: 150px ;
+    border-radius: 50% ;     
+    overflow:hidden;
+}
+}

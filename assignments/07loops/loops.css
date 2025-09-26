@@ -1,0 +1,100 @@
+body{  
+    color: white ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightskyblue;
+}
+
+header{
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+} 
+
+h2{
+    color: white ;
+    margin-top: 0px;
+    text-decoration: underline;
+} 
+
+.cloud{ 
+    position:relative;
+    width:50px;
+    height:50px;
+    background: white;
+    border-radius: 50%; 
+    display: inline-block; 
+    margin: 5px; 
+}
+.cloud:before{
+    content: "";
+    position:absolute;
+    width:40px;
+    height:40px;
+    left: -20px; 
+    top: 10px; 
+    background: white; 
+    border-radius: 50%;
+}
+.cloud::after{
+    content: "";
+    position:absolute;
+    width:40px;
+    height:40px;
+    left: -20px; 
+    top: 10px; 
+    background: white; 
+    border-radius: 50%;
+}
+.tree{
+    display: inline-block; 
+    margin:15px;
+}
+.tree-top{
+    width: 50px;
+    height: 50px; 
+    background: green; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+
+}
+.tree-trunk{
+    width: 20px;
+    height: 30px; 
+    background: brown; 
+    margin: 0 auto; 
+    border-radius: 3px;
+}
+
+.sun{
+    width:80px;
+    height:80px;
+    background: yellow;
+    border-radius: 50%; 
+    position:absolute;
+    top: 20px;
+    right: 20px;
+} 
+
+.moon {
+    width:80px;
+    height:80px;
+    background: rgb(231, 231, 204);
+    border-radius: 50%; 
+    position:absolute;
+    top: 20px;
+    right: 20px;
+} 
+.moon::after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px; 
+    right: 0px; 
+}
+
+

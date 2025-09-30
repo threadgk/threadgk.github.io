@@ -1,108 +1,66 @@
 body{
-    background-color: white;
-    background-size: cover;
+    margin:0;
+    min-height:fit-content;
+    border: 20px solid rgb(6, 30, 145);
+    box-sizing: border-box;
+    background:linear-gradient(to right,rgb(0, 140, 255),rgb(129, 224, 129), rgb(244, 244, 198) ) ;
+
 }
-.websec{
-    display: block;
-    justify-content: center;
-}
-#web-head{ 
+.web-sec{
     margin:0px;
-    padding-top:0px; 
-    padding-bottom:30px;
-    position:relative; 
-}  
-#page-header{
-    padding-top: 10px ;
 }
-#page-heading-text{  
-    border-radius: 10px ;
-    margin-top:40px ;
-    margin-bottom: 70px;
-    margin-left: 10px ;
-    margin-right: 10px ;
-}
-#main-nav {
+span#nav-toggle {   
+    display: block;
+    box-sizing: border-box;
+    width:100%;
+    color: rgb(6, 30, 145);
+    background:linear-gradient(to right,rgb(0, 140, 255),rgb(129, 224, 129), rgb(244, 244, 198) ) ;
+    text-align:right;
+    padding-top:5px;
+    padding-bottom:5px;
+} 
+#main-nav{
     display:flex;
+    flex-wrap:wrap;
 }
-#main-nav li{
-    flex-direction: column;
+    /*: 14px solid linear-gradient(to right,rgb(91, 183, 244),rgb(173, 237, 188),rgb(255, 124, 124)) ;*/
+#main-nav ul { 
+    background-color: rgba(247, 255, 250, 0.807) ;
+    margin-top:0px;
+    width: 25%;
+    flex: 70%;
+    list-style:none;
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:0px;
 }
-
-
-
-
-
-
-#web-head, #webpage-cont {
-    border: 0px solid black;
-    color:black ;
+#main-nav ul.flex li { 
+    height:25px;
+    padding-left:0px; 
+    border-bottom: 2px solid rgb(0, 140, 255);
+    text-align: center;
+    flex: 70%;
+}
+.flex a{
+    color: rgb(6, 30, 145) ;
+    font-size:20px ; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: none;
 }
 #page-header{ 
-    background: linear-gradient(to right,rgb(244, 201, 91),rgb(255, 156, 219),rgb(255, 124, 124)) ;
+    background: rgba(0, 140, 255, 0.493);
 }
 
 
 
 
 #page-header{ 
-    text-align: center ;
-    display: block ;
+    text-align:left;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left:10px;
+    padding-top: 10px ;
     color:black;
     font-size: 80px;
     font-weight: bold ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-#page-heading-text{  
-    color: rgb(255, 255, 255) ;
-    font-family:'Courier New', Courier, monospace;
-    text-align:center;
-    font-size: 30px;
-}
-ul.flex a {
-    font-weight: bold ;
-    font-size:20px ; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:590px) {
-
- ul.flex{
-    display:flex;
-    list-style: none;
-    width:100%;
-}
-.flex li{
-
-}
-  
-.web-sec header#page-header{ 
-    display: block ;
-    color: black ;
-    font-size: 100px;
-    font-weight: bold ;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-}
-
-}
-
+    font-family:'Franklin Gothic Medium', 'Aria

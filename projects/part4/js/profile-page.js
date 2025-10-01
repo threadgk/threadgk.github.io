@@ -14,4 +14,7 @@ document.getElementById("bio-button").onclick = () => {
     const bioBox = document.getElementById("bio-box") ; 
 
     if(bioInput && bioBox){
-        bioBox.te
+        bioBox.textContent = bioInput.value; 
+        bioInput.innerHTML = "";
+    }
+}

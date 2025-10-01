@@ -1,0 +1,79 @@
+body{
+    font-family:'Courier New', Courier, monospace ;
+    text-align: center ; 
+    background-color:rgb(124, 194, 255) ;  
+    color: rgb(12, 52, 86) ;
+}  
+header { 
+    margin-top: 10px; 
+    font-size: 43px ; 
+    font-weight: bold ;
+}
+#dog-gallery{
+    display: flex ;
+    justify-content: center ; 
+    gap: 20px ; 
+    flex-wrap: wrap ; 
+    margin: 15px ;
+}  
+.box img { 
+    border: 10px solid greenyellow ; 
+    border-radius: 10% ;
+    height: 200px ; 
+    width: 145px ; 
+    display: block;
+}
+.box{ 
+    position:relative;
+    display: inline-block ;
+}
+
+.caption{  
+    display:none;
+    position: relative; 
+    bottom: 10px; 
+    background: rgba(255, 255, 255, 0.759); 
+    color: black; 
+    font-weight: bold; 
+    padding: 5px; 
+} 
+.box:hover { 
+    display: block;
+    opacity: 1;
+}
+.box:hover .caption{
+    display:block;
+}
+.hidden{
+    display: none ; 
+} 
+#popup-title{
+    font-size: 10px;
+}
+.popup-cont {   
+    z-index: 1000;
+    background-color: rgba(188, 215, 101, 0.522); 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 2px 15px gray ; 
+    text-align:center;  
+    position:absolute;   
+    top: 422px ; 
+    left: 53% ;
+    width: 200px ; 
+} 
+
+#popup-img { 
+    height:100px;
+    width: 105px;
+    border-radius: 10px; 
+} 
+
+#close {
+    position: absolute ; 
+    top: 10px ; 
+    right: 15px ; 
+    cursor: pointer ; 
+    font-size: 20px ; 
+    color: rgb(125, 121, 121) ;
+}

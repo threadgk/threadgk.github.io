@@ -93,4 +93,10 @@ p {
     float: right ;
     font-size: 20px ;
     font-weight: bold ; 
- 
+    cursor: pointer ; 
+    color:rgb(123, 123, 123) ;
+} 
+
+#close:hover {
+    color: rgba(255, 0, 0, 0.396) ;
+}

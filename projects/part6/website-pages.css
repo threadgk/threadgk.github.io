@@ -6,6 +6,10 @@ body{
     box-sizing: border-box;
     background:linear-gradient(to right,rgb(0, 140, 255),rgb(129, 224, 129), rgb(244, 244, 198) ) ;
 }
+img{
+    height: 800px;
+    width: 800px;
+}
 .web-sec{
     margin:0px;
 }
@@ -13,15 +17,20 @@ span#nav-toggle {
     display: block;
     box-sizing: border-box;
     width:100%;
-    color: rgb(6, 30, 145);
-    background: white;
+    color: white;
+    border-top: 3px solid white;
+    border-right: 4px solid white; 
+    border-left: 4px solid white;
+    background: rgb(6, 30, 145);
     text-align:right;
+    padding-right: 10px;
     padding-top:5px;
     padding-bottom:5px;
 } 
     /*: 14px solid linear-gradient(to right,rgb(91, 183, 244),rgb(173, 237, 188),rgb(255, 124, 124)) ;*/
 #main-nav ul { 
-    background-color: rgba(247, 255, 250, 0.807) ;
+    border-top: 3px solid white;
+    background-color: rgb(6, 30, 145);
     margin-top:0px;
     list-style:none;
     display:flex;
@@ -36,8 +45,12 @@ span#nav-toggle {
     text-align: center;
     flex: 70%;
 } 
+.flex a:hover {
+    background-color:rgb(0, 140, 255);
+}
 .flex a{
-    color: rgb(6, 30, 145) ;
+    display: block ;
+    color: rgb(255, 255, 255) ;
     font-size:20px ; 
     text-decoration: none;
 }
@@ -63,15 +76,31 @@ span#nav-toggle {
 
 
 @media(min-width:800px) {
-
+ul#nav-itms.flex{
+    background:none;
+}
 #main-nav ul{
+    display:flex;
+    gap:10px;
+    margin-top: 20px;
     flex-direction: row; 
     justify-content: center;
 }
+ul.flex li a{
+    color:rgb(6, 30, 145);
+}
 
-#main-nav ul.flex li{
+#main-nav ul.flex li{      
+    margin-left: 10px; 
+    margin-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: white;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0, 0.101);
     flex: 1 ;
-    border-bottom: none;
 }
 
 span#nav-toggle{
@@ -83,3 +112,7 @@ span#nav-toggle{
 
 
 
+
+
+
+/*   color: rgb(6, 30, 145); */ 

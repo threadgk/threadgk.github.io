@@ -11,6 +11,9 @@ body{
     margin:0px;
 } 
 
+section#web-nav{
+    margin: 20px;
+}
 
 span#nav-toggle {    
     border-top-left-radius: 10px; 

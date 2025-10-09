@@ -28,17 +28,15 @@ grid-column: 2; grid-row: 3;
 }
 
 div#home-nav{    
-    border: 1px solid rgba(144, 174, 156, 0.807) ;
-    background-color: rgb(255, 255, 255) ; 
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:45px;
+    margin-right:45px;
     margin-bottom:0px;
     padding:10px;
 }
 div#about-website p {
     margin-top:0px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 40px;
     border: 1px solid rgba(144, 174, 156, 0.807) ;
     background-color: rgb(255, 255, 255) ;
@@ -52,14 +50,14 @@ div#about-website p {
     text-align:center;
     list-style-type:none;
 }
-#display-gallery{  
+#display-gallery{   
+    margin-left: 50px;
+    margin-right: 50px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     text-align: center;
     padding:40px;
-    border: 1px solid rgba(144, 174, 156, 0.807) ;
-    background-color: rgb(255, 255, 255) ;
 }
 
 .home-nav-container li a{  

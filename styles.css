@@ -1,69 +1,69 @@
 /* Mobile First Design */ 
-body{
-    background:rgb(255, 255, 203)
+body{ 
+    text-align: center ;
+    font-family: 'Courier New', Courier, monospace ;
+    background:rgb(255, 255, 255)
 }
+
 #content{
     width:95%;
     margin:auto;
-    background:rgb(158, 227, 232); 
+    background:rgb(57, 170, 236); 
     border-radius:5px;
     padding:5px;
-   /* text-align:center; */
 
 }
-#main-header{
-    text-align:center; 
-    color: rgba(10, 12, 13, 0.42);  
+#main-header{ 
+    background-color: rgb(255, 255, 255);
+    text-align:center;  
+    color: rgb(0, 0, 0);  
+    margin: 20px ;
 }
 img{
     height:200px;
     width:200px;
 }
 ul{
+    gap: 10px;
     display:flex; 
     flex-wrap: wrap; 
 }
 li{
     padding:0px;
-    flex:1;
+    flex:1 1;
 }
  
 section { 
     display: block ; 
     justify-content: center; 
-    color:rgb(116, 154, 155);
-    background-color: rgb(255, 255, 198);
+    color:rgb(0, 0, 0);
 }
-#GTR-Button{
-    background:white;
+#GTR-Button{  
+    background:rgb(20, 20, 20);
     border-radius: 5px;
     text-decoration:none;
-    color:rgb(116, 154, 155);
+    color:rgb(255, 255, 255);
     padding:5px;
 }
 
 #main-content{
-    background: rgb(116, 154, 155); 
-    color: white; 
+    color: rgb(255, 255, 255); 
     font-size:larger; 
-    border-radius:5px;
+    border-radius:0px;
     padding:5px;
     
 }
-#main-opt{
-    background: rgb(254, 174, 150);
-}
-#main-content ul{
+
+#main-content ul{  
+    margin-left: 20px;
     list-style-type:none;
     text-decoration:none;
     padding-left:0;
     text-align:center; /*text and pics list text*/
 }
-#main-content li{ 
-    border-top:4px solid rgb(158, 227, 232);  
-    border-bottom: 4px solid rgb(158, 227, 232); 
-    border-left: 4px solid rgb(158, 227, 232); 
-    border-right: 4px solid rgb(158, 227, 232); 
+#main-content li{     
+    background-color: white;
+    border:4px solid rgb(0, 0, 0);  
     
 }
 #main-content a{ 
@@ -80,7 +80,7 @@ section {
 div#projects img{
     max-width:25%;
 }
-div#projects a:hover{
+section#projects a:hover{
     color:black;
     background-color:rgb(198, 237, 224);
 }
@@ -88,7 +88,7 @@ div#projects a:hover{
 /* position of text "Assignment __-_____" on page */ 
 h3{
     text-align:center;
-    font-family:cursive;
+    
 }
 /* For Large Devices Only */ 
 @media only screen and (min-width: 768px){
@@ -114,22 +114,23 @@ h3{
         text-align:center;
     }
     #main-opt a:hover{
-        background:white;   
-        color: rgb(116, 154, 155);
-    }
+        background:rgb(204, 222, 239);   
+        color: rgb(0, 0, 0);
+    } 
+    
     #GTR-Button{
-        background: rgb(116, 154, 155);
+        
+        background: rgb(255, 255, 219);
         border-radius: 5px; 
         text-decoration: none; 
-        color: white; 
+        color: rgb(0, 0, 0); 
         padding:5px; 
     }
     #main-content{
-        background:rgba(0, 110, 255, 0.716); 
+        
+       /* background:rgb(0, 110, 255);  */ 
     } 
-    h3{ 
-        font-family: cursive; 
-    }
+    
     
    
 

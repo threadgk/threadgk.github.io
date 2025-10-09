@@ -65,11 +65,31 @@ main {
     background:var(--gallery-color);
 }
 
-/* Slideshow */
+/* Slideshow */ 
+#slideshow {
+    position: relative ;
+}
+
 #slideshow img {
     max-width:100%;
 }
 
+#arrow-prev, #arrow-next {
+    position: absolute;
+    color: black;
+    background: rgba(255, 255, 255, 0.367); 
+    text-decoration: none;
+    font-size: 3em; 
+    top: 40%;
+    padding: 10px; 
+} 
+#arrow-prev, #arrow-next
+#arrow-prev {
+    left: 5%;
+}
+#arrow-next {
+    right: 5%;
+}
 .links {
     background:#D3DDEA;
 }

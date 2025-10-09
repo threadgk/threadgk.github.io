@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace ;
+}section#webpage-cont{  
+    display: flex;
+    flex-wrap: wrap; 
+    max-width:100%;  
+    overflow:hidden;
+    box-sizing: border-box;
+}  
+div.flex-genre{ 
+    flex: 1 1 45%; 
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align:center;
+    border: 1px solid rgb(6,30,145);
+    background-color: white;
+    display:flex; 
+    flex-wrap: wrap;
+}
+img{ 
+    margin-top: 10px;
+    height: 200px;
+    width: 205px;
+}
+div.flex-genre table {    
+    border-radius: 1%; 
+    margin-top: 70px;
+    background-color: rgb(228, 248, 255); 
+    margin-left: auto;
+    margin-right: auto; 
+    height:200px;
+    width: 205px;
+}     
+
+ 
+
+div.flex-genre th, div.flex-genre td {   
+    border: 1px solid rgb(108, 169, 239);
+}
+
+div.genre-container{   
+    padding: 10px;
+    margin:10px;
+    flex: 1 1;
+    background-color:rgb(122, 215, 246) ;
+}

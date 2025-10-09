@@ -1,0 +1,17 @@
+div.art-container img{
+    margin-top: 20px;
+    height:210px;
+    width:220px;
+}
+section#webpage-cont{
+    display:flex; 
+    flex-wrap: wrap;
+}
+div.art-container{   
+    padding: 100px;
+    border: 1px solid rgb(6,30,145);
+    box-sizing: border-box;
+    text-align:center;
+    flex: 1 1 50%;
+    background-color:white;
+}

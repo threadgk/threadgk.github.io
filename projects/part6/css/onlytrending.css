@@ -1,0 +1,58 @@
+div#billboard{
+    text-align: left;
+    padding:10px;
+    background-color: rgb(255, 255, 255) ; 
+} 
+header.chart-name{
+    padding-top:10px;
+    text-decoration:underline;
+    font-size: 50px;
+    color: rgb(6,30,145);
+    text-align: center;
+}
+
+a#b-link img, a#s-link img, a#i-link img, a#y-link img, a#a-link img{ 
+    margin: 20px auto;
+    display:block;
+    height: 190px;
+    width: 250px;
+} 
+table{ 
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid royalblue;
+} 
+table th{
+    background-color: royalblue;
+}
+table td{
+    background-color:rgb(236, 243, 255);
+} 
+div#all-charts{ 
+    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div#all-charts div{
+    flex: 1 1 50%;
+}
+div#apple{
+    text-align: left;
+    padding:10px;
+    background-color: rgb(255, 255, 255) ; 
+}
+div#spotify{
+    text-align: left;
+    padding:10px;
+    background-color: rgb(255, 255, 255) ; 
+}
+div#iHeart{
+    text-align: left;
+    padding:10px;
+    background-color: rgb(255, 255, 255) ; 
+} 
+div#youtube{
+    text-align: left;
+    padding:10px;
+    background-color: rgb(255, 255, 255) ; 
+}

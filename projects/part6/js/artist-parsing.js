@@ -35,7 +35,7 @@ const getArtists = async()=>{
         debutYear.textContent = `Debut Year: ${artist["_debut-year"]}` ;
 
         const debutAlbum = document.createElement("p")
-        debutAlbum.textContent = `Debut Album: ${artist[_debut-album]}` ;
+        debutAlbum.textContent = `Debut Album: ${artist["_debut-album"]}` ;
 
         const description = document.createElement("p")
         description.textContent = artist._description ;

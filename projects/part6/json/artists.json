@@ -29,7 +29,7 @@
         "_debut-year": "2018",
         "_debut-album": "What Could Possibly Go Wrong" ,
         "img": "json/images/artists-images/dominic.jpg", 
-        "_review": "Dominic Fike is a singer, songwriter, and rapper from Naples, Florida, born on December 30, 1995. He first started sharing music online and quickly gained attention. In 2018, he released an EP called Don’t Forget About Me, Demos, which made him stand out in the industry. His style mixes rap, rock, and pop, giving his music a unique sound. One of his breakout songs was “3 Nights,” which became very popular worldwide. In 2020, he released his first full album What Could Possibly Go Wrong. He also reached an even bigger audience when he acted in the TV show Euphoria in 2022. Fans enjoy his honest lyrics and the laid-back vibe in his music. Dominic Fike is known for blending genres and creating his own style in today’s music scene."
+        "_description" : "Dominic Fike is a singer, songwriter, and rapper from Naples, Florida, born on December 30, 1995. He first started sharing music online and quickly gained attention. In 2018, he released an EP called Don’t Forget About Me, Demos, which made him stand out in the industry. His style mixes rap, rock, and pop, giving his music a unique sound. One of his breakout songs was “3 Nights,” which became very popular worldwide. In 2020, he released his first full album What Could Possibly Go Wrong. He also reached an even bigger audience when he acted in the TV show Euphoria in 2022. Fans enjoy his honest lyrics and the laid-back vibe in his music. Dominic Fike is known for blending genres and creating his own style in today’s music scene."
     } ,
 
     {
@@ -149,7 +149,7 @@
         "_genre": "Hip-Hop/Rap",
         "_debut-year": "2011",
         "_debut-album": "Cole World: The Sideline Story" ,
-        "img": "http://threadgk.github.io/projects/part6/json/images/artists-images/J-Cole.webp", 
+        "img": "json/images/artists-images/J-Cole.webp", 
         "_description": "J. Cole is a rapper, singer, and producer from Fayetteville, North Carolina, born on January 28, 1985. He is known for his thoughtful lyrics and storytelling about life, struggle, and success. His big break came when he was signed to Jay-Z’s label Roc Nation, leading to his debut album Cole World: The Sideline Story in 2011. J. Cole is admired for producing much of his own music and for his honesty in addressing real-life topics. Fans connect with him because his music feels authentic and down-to-earth. Over the years, he has become one of the most respected figures in modern hip-hop."
     }
 ]

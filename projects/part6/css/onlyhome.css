@@ -51,12 +51,12 @@ div#about-website p {
     list-style-type:none;
 }
 
-#display-gallery img{
-    height: 800px;
-    width: 800px;
-}
 #display-gallery{   
+    border: 1px solid white; 
     text-align: center;
+}
+#display-gallery img{
+    display:block;
 }
 
 .home-nav-container li a{  

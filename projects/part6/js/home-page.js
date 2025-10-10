@@ -8,19 +8,18 @@
             console.error("Error fetching gallery images!", error); 
         } 
 }; 
-  const showSlideShow = async()=>{
-        const images = await getImages(); 
-        const slideShow = document.querySelector("#slideshow") ;  
+        const showSlideShow = async()=>{
+                const images = await getImages(); 
+                const slideShow = document.querySelector("#slideshow") ;  
 
         images.forEach((image) => { 
-
-            const img = document.createElement("img"); 
-            img.src = img.img ; 
-            img.classList.add("hidden"); 
-
-            slideShow.appendChild(img) ; 
-}) ; 
-                const setInterval=()=> {
+                const img = document.createElement("img"); 
+                 img.src = image.img ; 
+                 img.classList.add("slide"); 
+                if (index !== 0) img.classList.add("hidden");
+                 slideShow.appendChild(img) ; 
+}) ;    
+             setInterval=(()=> {
 
                     const currentSlide = document.querySelector("#slideshow :not(.hidden)"); 
                     let nextSlide = currentSlide.nextElementSibling; 
@@ -31,6 +30,5 @@
 
                      currentSlide.classList.add("hidden"); 
                      nextSlide.classList.remove("hidden");
-                  } , 10000) ; 
-                };
-                      showSlideShow();
+                  }, 10000) ; 
+                };showSlideShow();

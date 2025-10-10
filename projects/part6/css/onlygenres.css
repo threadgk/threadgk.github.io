@@ -1,47 +1,106 @@
-
 body{
-    font-family: 'Courier New', Courier, monospace ;
-}section#webpage-cont{  
-    display: flex;
-    flex-wrap: wrap; 
-    max-width:100%;  
-    overflow:hidden;
+    text-align: center;
+}
+.genres-container{  
+    padding: 90px;
     box-sizing: border-box;
-}  
-div.flex-genre{ 
-    flex: 1 1 45%; 
-    max-width: 100%;
-    box-sizing: border-box;
-    text-align:center;
-    border: 1px solid rgb(6,30,145);
-    background-color: white;
     display:flex; 
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
+    justify-content: center; 
+    gap: 20px;
 }
-img{ 
-    margin-top: 10px;
-    height: 200px;
-    width: 205px;
-}
-div.flex-genre table {    
-    border-radius: 1%; 
-    margin-top: 70px;
-    background-color: rgb(228, 248, 255); 
+h2 { 
     margin-left: auto;
-    margin-right: auto; 
-    height:200px;
-    width: 205px;
-}     
-
- 
-
-div.flex-genre th, div.flex-genre td {   
-    border: 1px solid rgb(108, 169, 239);
+    margin-right: auto;
+    font-size: 30px;
+}
+.genre-section{    
+    width: 100%;
+    flex: 100% ; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    background: white; 
+    box-shadow: 0 4px 10px black; 
+    padding: 100px; 
+    box-sizing: border-box;
 }
 
-div.genre-container{   
+.subgenre-container{       
+    gap: 10px;
     padding: 10px;
-    margin:10px;
-    flex: 1 1;
-    background-color:rgb(122, 215, 246) ;
+    background-color:rgb(224, 237, 169);
+    color: rgb(1, 7, 93); 
+    text-align: center; 
+    box-shadow: 0 4px 10px black;
+}
+
+.subgenre-card{      
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    color: rgb(97, 143, 189);
+    background: white;
+    
+}
+
+.subgenre-link{
+
+}
+
+
+@media(min-width: 800px){ 
+    body{
+    text-align: center;
+}
+.genres-container{  
+    padding: 90px;
+    box-sizing: border-box;
+    display:flex; 
+    flex-wrap: wrap;   
+    justify-content: center; 
+    gap: 20px;
+}
+h2 {
+    font-size: 70px;
+}
+.genre-section{   
+    flex: 1 1 300px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    background: white; 
+    box-shadow: 0 4px 10px black; 
+    padding: 100px; 
+    box-sizing: border-box;
+}
+
+.subgenre-container{       
+    gap: 10px;
+    padding: 10px;
+    background-color:rgb(224, 237, 169);
+    color: rgb(1, 7, 93); 
+    text-align: center; 
+    box-shadow: 0 4px 10px black;
+}
+
+.subgenre-card{      
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    color: rgb(97, 143, 189);
+    background: white;
+    
+}
+
+.subgenre-link{
+
+}
+    .genre-section{
+        flex: 1 1 45%;
+    }
 }

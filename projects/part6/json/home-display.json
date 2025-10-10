@@ -1,14 +1,14 @@
 [
     {
-         "img": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/artists-prev.png"
+         "artists": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/artists-prev.png"
     },
     {   
-         "img": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/charts-prev.png"
+         "charts": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/charts-prev.png"
     },
     {   
-         "img": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/genres-prev.png"
+         "genres": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/genres-prev.png"
     },
     {
-         "img": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/profile-prev.png"
+         "profile": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/profile-prev.png"
     }
 ]

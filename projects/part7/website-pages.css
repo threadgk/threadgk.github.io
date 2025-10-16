@@ -10,7 +10,7 @@ body{
     box-sizing: border-box;
     margin:0px;
 } 
-div#display-gallery {
+div.display-gallery {
     margin-top: 10px;
 }
 section#web-nav{

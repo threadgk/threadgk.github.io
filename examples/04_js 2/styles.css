@@ -265,7 +265,8 @@ background:#799ce3;
     color:white;
 }
 #map {
-    width:100%;
+    margin:5px;
+    width:95%;
     height:500px;
 }
 

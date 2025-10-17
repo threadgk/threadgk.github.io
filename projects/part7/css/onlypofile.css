@@ -2,6 +2,14 @@ body{
     
     font-family: 'Courier New', Courier, monospace;
 }
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height: 400px;
+    width: 400px;
+}
 img#profile-pic{
     margin: 50px;
 } 

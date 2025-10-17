@@ -24,3 +24,34 @@
                 }); 
             }; 
             showSlideShow();
+
+
+const signUpForm = document.getElementById("signup");
+const contactBTN = document.getElementById("contactButton");
+const submitBTN = document.getElementById("submit");
+
+
+contactBTN.onclick = () => {
+    signUpForm.classList.toggle("hidden");
+};
+
+
+const form =document.getElementById("form"); 
+form.onsubmit = (event) => {
+    event.preventDefault();
+
+    const popUp = document.getElementById("popup");
+    
+    popUp.classList.remove("hidden");
+    popUp.style.display = "block";
+
+    setTimeout(() => {
+        popUp.style.display = "none";
+    }, 3000);
+
+    form.reset();
+}
+
+
+
+

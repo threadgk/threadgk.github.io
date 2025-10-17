@@ -8,6 +8,41 @@ ul.home-nav-container {
     margin: 0 ;
     list-style: none;
 }  
+span#name-box{
+    display:block;
+    font-size: 20px;
+}
+button#contactButton{
+    text-align: center ;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size: 20px ;
+    font-family:'Courier New', Courier, monospace  ;
+    background-color: white ; 
+    color: rgb(52, 126, 200);
+    border: 4px solid rgb(52, 126, 200) ;
+    border-radius: 5px ;
+    cursor: pointer ;
+}
+
+section#contact{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;;
+}
+section#signup{
+    font-weight: bold; 
+    color: black;
+    padding-top: 10px; 
+    padding-bottom: 15px;
+    margin-left:100px;
+    margin-right:100px;
+    text-align: center ;
+    background-color: white;
+    border: 4px solid rgb(52, 126, 200)
+}
 #slideshow {
      width: 100% ; 
      position: relative ;

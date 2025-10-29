@@ -1,0 +1,80 @@
+body{ 
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    height: 400px;
+    width: 400px;
+}
+img#profile-pic{
+    margin: 50px;
+} 
+span#name-box{
+    height: 45px; 
+    width: 100px;
+    
+}
+span#bio-box{   
+    border-radius: 20% ;
+    background-color: white; 
+    border: 1px solid black;
+    height:45px; 
+    width:100px;
+    
+}
+a.audio-pic img{  
+    transform: scale(1.01);
+    border-radius: 50%;
+    height: 45px;
+    width:45px;
+    object-fit: cover;
+}
+div.empty-bio{
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black; 
+    background: white;
+}
+span#profile-span img{ 
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+}
+#webpage-cont{    
+    max-width:100vw;
+    box-sizing: border-box ;
+    text-align: center;
+    display:flex; 
+    flex-wrap: wrap; 
+    background: white;
+    gap: 10px;
+} 
+div.container { 
+    flex: 1 1;
+    background: greenyellow;
+}
+div#div-one{
+    margin: 10px;
+    border: 2px solid black;
+    background:lightblue;
+}
+div#div-two{
+    margin: 10px;
+    border: 2px solid black;
+    background:rgb(173, 230, 191);
+}
+div#div-three{
+    margin: 10px;
+    border: 2px solid black;
+    background:rgb(247, 255, 202);
+}

@@ -1,0 +1,14 @@
+[
+    {
+         "artists": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/artists-prev.png"
+    },
+    {   
+         "charts": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/charts-prev.png"
+    },
+    {   
+         "genres": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/genres-prev.png"
+    },
+    {
+         "profile": "https://threadgk.github.io/projects/part6/json/images/home-dislay-images/profile-prev.png"
+    }
+]

@@ -2,26 +2,31 @@
 body{ 
     text-align: center ;
     font-family: 'Courier New', Courier, monospace ;
-    background:rgb(255, 255, 255)
+    background:url("images/leaves.jpg");
 }
 
 #content{
     width:95%;
-    margin:auto;
-    background:rgb(57, 170, 236); 
+    margin: auto;
+    background:rgb(98, 185, 111); 
     border-radius:5px;
+    border: 5px dotted black; 
+    border-radius: 10px;
     padding:5px;
 
 }
-#main-header{ 
-    background-color: rgb(255, 255, 255);
+#main-header{  
+    padding: 20px; 
+    border: 1px solid white;
+    background-color: rgba(157, 190, 160, 0.556);
     text-align:center;  
-    color: rgb(0, 0, 0);  
+    color: rgb(0, 0, 0);   
+    text-shadow: 0 0 5px white, 0 0  10px white, 0 0 20px white, 0 0 40px white;
     margin: 20px ;
 }
 img{
-    height:200px;
-    width:200px;
+    height:90px;
+    width:125px;
 }
 ul{
     gap: 10px;
@@ -38,12 +43,13 @@ section {
     justify-content: center; 
     color:rgb(0, 0, 0);
 }
-#GTR-Button{  
+#GTR-Button{   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background:rgb(20, 20, 20);
-    border-radius: 5px;
+    border-radius: 50%;
     text-decoration:none;
     color:rgb(255, 255, 255);
-    padding:5px;
+    padding:14px;
 }
 
 #main-content{
@@ -67,28 +73,36 @@ section {
     
 }
 #main-content a{ 
-    color:rgb(116, 154, 155) ; 
+    color:rgb(28, 28, 28) ; 
     background-color:white;
     text-decoration:none; /* removes underlines */
     padding:10px 0px;
     display:block;        /* makes the entire area clickable */
 }
 #main-content a:hover{    /* changes color of link when hover */
-    background: white ;   /* backgroung color of hover */
-    color: rgb(116, 154, 155); /* text color when hover */
+    background: black ;   /* backgroung color of hover */
+    color: white; /* text color when hover */
 }
 div#projects img{
     max-width:25%;
 }
 section#projects a:hover{
-    color:black;
-    background-color:rgb(198, 237, 224);
+    color:white;
+    background-color: black;
 }
 /*Typography*/ 
 /* position of text "Assignment __-_____" on page */ 
 h3{
     text-align:center;
     
+}
+section#client-side a {
+    margin-top: 10px;
+    border: 5px solid black;
+}
+section#server-side a {
+    margin-top: 10px;
+    border: 5px solid black;
 }
 /* For Large Devices Only */ 
 @media only screen and (min-width: 768px){
@@ -114,8 +128,8 @@ h3{
         text-align:center;
     }
     #main-opt a:hover{
-        background:rgb(204, 222, 239);   
-        color: rgb(0, 0, 0);
+        background:black;   
+        color: white;
     } 
     
     #GTR-Button{
